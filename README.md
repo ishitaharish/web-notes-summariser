@@ -18,7 +18,7 @@ This extension enables users to **select any text on a webpage** and instantly g
 
 1. The user selects text on any webpage.
 2. `content.js` sends the selected text to `background.js`.
-3. `background.js` submits the text to **Cohere's command-r-plus** model via the Chat API with a carefully tuned summarization prompt.
+3. `background.js` submits the text to **Cohere's command-r-plus** model.
 4. The resulting summary is stored via `chrome.storage.local`.
 5. `popup.js` retrieves and displays the latest summary in `popup.html`.
 
