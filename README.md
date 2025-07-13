@@ -27,7 +27,7 @@ This extension enables users to **select any text on a webpage** and instantly g
 
 The model is instructed with the following prompt to ensure informative output, but you may alter it to suit your specific requirements in Line 12, `background.js`.
 
-_"Summarize the following text into structured, pointwise notes but dont skip the important information"
+>"Summarize the following text into structured, pointwise notes but dont skip the important information"
 
 
 ## Usage
